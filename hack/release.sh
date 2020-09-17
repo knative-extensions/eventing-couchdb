@@ -24,7 +24,7 @@ export GO111MODULE=on
 # Yaml files to generate, and the source config dir for them.
 declare -A COMPONENTS
 COMPONENTS=(
-  ["couchdb.yaml"]="couchdb/config"
+  ["couchdb.yaml"]="config"
 )
 readonly COMPONENTS
 
