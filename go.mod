@@ -8,21 +8,21 @@ require (
 	github.com/go-kivik/couchdb/v3 v3.0.4
 	github.com/go-kivik/kivik/v3 v3.0.2
 	github.com/go-kivik/kivikmock/v3 v3.0.0
-	github.com/google/go-cmp v0.5.1
+	github.com/google/go-cmp v0.5.2
 	github.com/otiai10/copy v1.2.0 // indirect
 	github.com/stretchr/testify v1.6.0 // indirect
 	gitlab.com/flimzy/testy v0.2.1 // indirect
 	go.opencensus.io v0.22.5-0.20200716030834-3456e1d174b2 // indirect
 	go.uber.org/zap v1.15.0
-	golang.org/x/net v0.0.0-20200822124328-c89045814202
+	golang.org/x/net v0.0.0-20200904194848-62affa334b73
 	gopkg.in/yaml.v3 v3.0.0-20200601152816-913338de1bd2 // indirect
 	k8s.io/api v0.18.8
 	k8s.io/apimachinery v0.18.8
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
-	knative.dev/eventing v0.17.1-0.20200911202500-2a052dbdc2fb
-	knative.dev/pkg v0.0.0-20200911145400-2d4efecc6bc1
+	knative.dev/eventing v0.17.1-0.20200923160140-40f5749cd065
+	knative.dev/pkg v0.0.0-20200922164940-4bf40ad82aab
 	knative.dev/serving v0.17.1-0.20200911183800-3e7b71d67f00
-	knative.dev/test-infra v0.0.0-20200910231400-cfba2288403d
+	knative.dev/test-infra v0.0.0-20200921012245-37f1a12adbd3
 )
 
 replace (
