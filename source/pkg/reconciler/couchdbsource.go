@@ -131,6 +131,7 @@ func (r *Reconciler) createReceiveAdapter(ctx context.Context, src *v1alpha1.Cou
 
 	ra, err := r.kubeClientSet.AppsV1().Deployments(src.Namespace).Get(ctx, expected.Name, metav1.GetOptions{})
 	if apierrors.IsNotFound(err) {
+
 		ra, err = r.kubeClientSet.AppsV1().Deployments(src.Namespace).Create(ctx, expected, metav1.CreateOptions{})
 		controller.GetEventRecorder(ctx).Eventf(src, corev1.EventTypeNormal, couchdbsourceDeploymentCreated, "Deployment created, error: %v", err)
 		return ra, err
