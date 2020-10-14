@@ -37,6 +37,7 @@ type PodOption func(*corev1.Pod)
 // Option enables further configuration of a Role.
 type RoleOption func(*rbacv1.Role)
 
+<<<<<<< HEAD
 // EventTransformationPod creates a Pod that transforms events received receiving as arg a cloudevents sdk2 Event
 func EventTransformationPod(name string, newEventType string, newEventSource string, newEventData []byte) *corev1.Pod {
 	const imageName = "transformevents"
@@ -64,6 +65,8 @@ func EventTransformationPod(name string, newEventType string, newEventSource str
 	}
 }
 
+=======
+>>>>>>> unpin and drop serving dep
 // HelloWorldPod creates a Pod that logs "Hello, World!".
 func HelloWorldPod(name string, options ...PodOption) *corev1.Pod {
 	const imageName = "print"

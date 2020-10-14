@@ -253,7 +253,11 @@ func flush(logger *zap.SugaredLogger) {
 
 // ParseAndGetConfigOrDie parses the rest config flags and creates a client or
 // dies by calling log.Fatalf.
+<<<<<<< HEAD
 // Deprecated: use injeciton.ParseAndGetRESTConfigOrDie
+=======
+// Deprecated: use injection.ParseAndGetRESTConfigOrDie
+>>>>>>> unpin and drop serving dep
 func ParseAndGetConfigOrDie() *rest.Config {
 	return injection.ParseAndGetRESTConfigOrDie()
 }

@@ -108,7 +108,11 @@ func DeployEventRecordOrFail(ctx context.Context, client *testlib.Client, name s
 	))
 	client.CreateRoleBindingOrFail(name, "Role", name, name, client.Namespace)
 
+<<<<<<< HEAD
 	eventRecordPod := EventRecordPod(name, name)
+=======
+	eventRecordPod := eventRecordPod(name, name)
+>>>>>>> unpin and drop serving dep
 	client.CreatePodOrFail(eventRecordPod, append(options, testlib.WithService(name))...)
 	err := pkgtest.WaitForPodRunning(ctx, client.Kube, name, client.Namespace)
 	if err != nil {
@@ -118,8 +122,13 @@ func DeployEventRecordOrFail(ctx context.Context, client *testlib.Client, name s
 	return eventRecordPod
 }
 
+<<<<<<< HEAD
 // EventRecordPod creates a Pod that stores received events for test retrieval.
 func EventRecordPod(name string, serviceAccountName string) *corev1.Pod {
+=======
+// eventRecordPod creates a Pod that stores received events for test retrieval.
+func eventRecordPod(name string, serviceAccountName string) *corev1.Pod {
+>>>>>>> unpin and drop serving dep
 	return recordEventsPod("recordevents", name, serviceAccountName)
 }
 
