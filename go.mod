@@ -15,14 +15,13 @@ require (
 	go.opencensus.io v0.22.5-0.20200716030834-3456e1d174b2 // indirect
 	go.uber.org/zap v1.15.0
 	golang.org/x/net v0.0.0-20200904194848-62affa334b73
-	gopkg.in/yaml.v3 v3.0.0-20200601152816-913338de1bd2 // indirect
 	k8s.io/api v0.18.8
 	k8s.io/apimachinery v0.18.8
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
-	knative.dev/eventing v0.18.1-0.20201001144430-5646fe1b227d
-	knative.dev/pkg v0.0.0-20201001022229-7c082ac1c01d
+	knative.dev/eventing v0.18.1-0.20201014123930-656ab81f8708
+	knative.dev/pkg v0.0.0-20201014022930-ad2e1b82ee6a
 	knative.dev/serving v0.17.1-0.20200911183800-3e7b71d67f00
-	knative.dev/test-infra v0.0.0-20200930161929-242b7529399e
+	knative.dev/test-infra v0.0.0-20201014021030-ae3984a33f82
 )
 
 replace (
