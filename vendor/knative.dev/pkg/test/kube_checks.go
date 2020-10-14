@@ -65,13 +65,8 @@ func WaitForDeploymentState(ctx context.Context, client kubernetes.Interface, na
 // from client every interval until inState returns `true` indicating it
 // is done, returns an error or timeout. desc will be used to name the metric
 // that is emitted to track how long it took to get into the state checked by inState.
-<<<<<<< HEAD
-func WaitForPodListState(ctx context.Context, client *KubeClient, inState func(p *corev1.PodList) (bool, error), desc string, namespace string) error {
-	p := client.Kube.CoreV1().Pods(namespace)
-=======
 func WaitForPodListState(ctx context.Context, client kubernetes.Interface, inState func(p *corev1.PodList) (bool, error), desc string, namespace string) error {
 	p := client.CoreV1().Pods(namespace)
->>>>>>> unpin and drop serving dep
 	span := logging.GetEmitableSpan(ctx, "WaitForPodListState/"+desc)
 	defer span.End()
 

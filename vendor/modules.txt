@@ -873,11 +873,7 @@ k8s.io/utils/buffer
 k8s.io/utils/integer
 k8s.io/utils/pointer
 k8s.io/utils/trace
-<<<<<<< HEAD
-# knative.dev/eventing v0.18.1-0.20201014123930-656ab81f8708
-=======
 # knative.dev/eventing v0.18.1-0.20201014183131-7ee674342f3d
->>>>>>> unpin and drop serving dep
 ## explicit
 knative.dev/eventing/pkg/adapter/v2
 knative.dev/eventing/pkg/adapter/v2/test
@@ -946,15 +942,7 @@ knative.dev/eventing/test/test_images/print
 knative.dev/eventing/test/test_images/recordevents
 knative.dev/eventing/test/test_images/sequencestepper
 knative.dev/eventing/test/test_images/transformevents
-<<<<<<< HEAD
-# knative.dev/networking v0.0.0-20200911160100-731bfc03416d
-knative.dev/networking/pkg
-knative.dev/networking/pkg/apis/networking
-knative.dev/networking/pkg/apis/networking/v1alpha1
-# knative.dev/pkg v0.0.0-20201014022930-ad2e1b82ee6a
-=======
 # knative.dev/pkg v0.0.0-20201014184531-9e655c6b02f6
->>>>>>> unpin and drop serving dep
 ## explicit
 knative.dev/pkg/apis
 knative.dev/pkg/apis/duck

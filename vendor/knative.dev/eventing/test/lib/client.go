@@ -96,17 +96,10 @@ func NewClient(configPath string, clusterName string, namespace string, t *testi
 	client.Tracker = NewTracker(t, client.Dynamic)
 
 	// Start informer
-<<<<<<< HEAD
-	client.EventListener = NewEventListener(client.Kube.Kube, client.Namespace, client.T.Logf)
-	client.Cleanup(client.EventListener.Stop)
-
-	client.tracingEnv, err = getTracingConfig(client.Kube.Kube)
-=======
 	client.EventListener = NewEventListener(client.Kube, client.Namespace, client.T.Logf)
 	client.Cleanup(client.EventListener.Stop)
 
 	client.tracingEnv, err = getTracingConfig(client.Kube)
->>>>>>> unpin and drop serving dep
 	if err != nil {
 		return nil, err
 	}
