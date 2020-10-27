@@ -15,14 +15,14 @@ require (
 	gitlab.com/flimzy/testy v0.2.1 // indirect
 	go.opencensus.io v0.22.5-0.20200716030834-3456e1d174b2 // indirect
 	go.uber.org/zap v1.15.0
-	golang.org/x/net v0.0.0-20200904194848-62affa334b73
+	golang.org/x/net v0.0.0-20201021035429-f5854403a974
 	k8s.io/api v0.18.8
 	k8s.io/apiextensions-apiserver v0.18.8 // indirect
 	k8s.io/apimachinery v0.18.8
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
-	knative.dev/eventing v0.18.1-0.20201014183131-7ee674342f3d
-	knative.dev/pkg v0.0.0-20201014184531-9e655c6b02f6
-	knative.dev/test-infra v0.0.0-20201014021030-ae3984a33f82
+	knative.dev/eventing v0.18.1-0.20201027155533-17e1562518ef
+	knative.dev/pkg v0.0.0-20201027121533-273ba59a1132
+	knative.dev/test-infra v0.0.0-20201026182042-46291de4ab66
 )
 
 replace (
