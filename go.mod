@@ -10,17 +10,18 @@ require (
 	github.com/go-kivik/kivikmock/v3 v3.0.0
 	github.com/google/go-cmp v0.5.4
 	github.com/influxdata/tdigest v0.0.1 // indirect
+	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/otiai10/copy v1.2.0 // indirect
-	github.com/stretchr/testify v1.6.0 // indirect
+	github.com/prometheus/procfs v0.0.11 // indirect
 	gitlab.com/flimzy/testy v0.2.1 // indirect
 	go.uber.org/zap v1.16.0
 	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
-	k8s.io/api v0.18.12
-	k8s.io/apimachinery v0.18.12
+	k8s.io/api v0.19.7
+	k8s.io/apimachinery v0.19.7
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
-	knative.dev/eventing v0.20.1-0.20210120133253-5dc363dcb5be
-	knative.dev/hack v0.0.0-20210114150620-4422dcadb3c8
-	knative.dev/pkg v0.0.0-20210119162123-1bbf0a6436c3
+	knative.dev/eventing v0.20.1-0.20210127134430-ea452b5b6655
+	knative.dev/hack v0.0.0-20210120165453-8d623a0af457
+	knative.dev/pkg v0.0.0-20210127163530-0d31134d5f4e
 )
 
 replace (
