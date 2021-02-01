@@ -5,10 +5,12 @@ go 1.14
 require (
 	github.com/cloudevents/sdk-go/v2 v2.2.0
 	github.com/flimzy/diff v0.1.7 // indirect
+	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/go-kivik/couchdb/v3 v3.0.4
 	github.com/go-kivik/kivik/v3 v3.0.2
 	github.com/go-kivik/kivikmock/v3 v3.0.0
 	github.com/google/go-cmp v0.5.4
+	github.com/googleapis/gnostic v0.4.0 // indirect
 	github.com/influxdata/tdigest v0.0.1 // indirect
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/otiai10/copy v1.2.0 // indirect
@@ -19,9 +21,11 @@ require (
 	k8s.io/api v0.19.7
 	k8s.io/apimachinery v0.19.7
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
-	knative.dev/eventing v0.20.1-0.20210127134430-ea452b5b6655
+	k8s.io/kube-openapi v0.0.0-20200410145947-bcb3869e6f29 // indirect
+	knative.dev/eventing v0.20.1-0.20210130010931-b20c96b4df51
 	knative.dev/hack v0.0.0-20210120165453-8d623a0af457
-	knative.dev/pkg v0.0.0-20210127163530-0d31134d5f4e
+	knative.dev/pkg v0.0.0-20210130001831-ca02ef752ac6
+	sigs.k8s.io/structured-merge-diff/v3 v3.0.1-0.20200706213357-43c19bbb7fba // indirect
 )
 
 replace (
