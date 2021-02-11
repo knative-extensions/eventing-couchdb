@@ -22,9 +22,9 @@ require (
 	k8s.io/apimachinery v0.19.7
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/kube-openapi v0.0.0-20200410145947-bcb3869e6f29 // indirect
-	knative.dev/eventing v0.20.1-0.20210209233432-7ce82834b39d
+	knative.dev/eventing v0.20.1-0.20210211104126-47ee8fa67d9b
 	knative.dev/hack v0.0.0-20210203173706-8368e1f6eacf
-	knative.dev/pkg v0.0.0-20210208175252-a02dcff9ee26
+	knative.dev/pkg v0.0.0-20210211034618-e38bb8931ffe
 	sigs.k8s.io/structured-merge-diff/v3 v3.0.1-0.20200706213357-43c19bbb7fba // indirect
 )
 
