@@ -24,7 +24,7 @@ require (
 	k8s.io/kube-openapi v0.0.0-20200410145947-bcb3869e6f29 // indirect
 	knative.dev/eventing v0.20.1-0.20210211204829-1c771ce4058e
 	knative.dev/hack v0.0.0-20210203173706-8368e1f6eacf
-	knative.dev/pkg v0.0.0-20210211034618-e38bb8931ffe
+	knative.dev/pkg v0.0.0-20210212203835-448ae657fb5f
 	sigs.k8s.io/structured-merge-diff/v3 v3.0.1-0.20200706213357-43c19bbb7fba // indirect
 )
 
