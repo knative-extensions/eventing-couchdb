@@ -22,10 +22,8 @@ import (
 
 	cloudevents "github.com/cloudevents/sdk-go/v2"
 	"github.com/google/go-cmp/cmp"
-	"go.uber.org/zap"
 	"knative.dev/eventing/pkg/adapter/v2"
 	kncetesting "knative.dev/eventing/pkg/adapter/v2/test"
-	"knative.dev/pkg/logging"
 	pkgtesting "knative.dev/pkg/reconciler/testing"
 
 	"github.com/go-kivik/kivik/v3/driver"
@@ -130,8 +128,6 @@ func TestReceiveEventPoll(t *testing.T) {
 				Feed:        tc.feed,
 			}
 			ctx, _ := pkgtesting.SetupFakeContext(t)
-			logger := zap.NewExample().Sugar()
-			ctx = logging.WithLogger(ctx, logger)
 
 			c, mock := kivikmock.NewT(t)
 
@@ -143,7 +139,7 @@ func TestReceiveEventPoll(t *testing.T) {
 				Changes: driver.ChangedRevs{"arev"},
 			}))
 
-			ctx, cancel := context.WithCancel(context.Background())
+			ctx, cancel := context.WithCancel(ctx)
 			ce := newAdapterTestClient(cancel)
 
 			a := newAdapter(ctx, &env, ce, c.DSN(), "kivikmock").(*couchDbAdapter)
