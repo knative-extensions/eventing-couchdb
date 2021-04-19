@@ -3,7 +3,7 @@ module knative.dev/eventing-couchdb
 go 1.14
 
 require (
-	github.com/cloudevents/sdk-go/v2 v2.4.0
+	github.com/cloudevents/sdk-go/v2 v2.4.1
 	github.com/flimzy/diff v0.1.7 // indirect
 	github.com/go-kivik/couchdb/v3 v3.0.4
 	github.com/go-kivik/kivik/v3 v3.0.2
@@ -20,9 +20,9 @@ require (
 	k8s.io/apimachinery v0.19.7
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/kube-openapi v0.0.0-20200410145947-bcb3869e6f29 // indirect
-	knative.dev/eventing v0.22.1-0.20210412234459-68afe5441d80
+	knative.dev/eventing v0.22.1-0.20210415222903-e74573361fe6
 	knative.dev/hack v0.0.0-20210325223819-b6ab329907d3
-	knative.dev/pkg v0.0.0-20210412173742-b51994e3b312
+	knative.dev/pkg v0.0.0-20210416161310-b80a1926251c
 	sigs.k8s.io/structured-merge-diff/v3 v3.0.1-0.20200706213357-43c19bbb7fba // indirect
 )
 
