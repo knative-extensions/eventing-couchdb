@@ -15,14 +15,14 @@ require (
 	github.com/prometheus/procfs v0.0.11 // indirect
 	gitlab.com/flimzy/testy v0.2.1 // indirect
 	go.uber.org/zap v1.16.0
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
+	golang.org/x/net v0.0.0-20210415231046-e915ea6b2b7d
 	k8s.io/api v0.19.7
 	k8s.io/apimachinery v0.19.7
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/kube-openapi v0.0.0-20200410145947-bcb3869e6f29 // indirect
-	knative.dev/eventing v0.22.1-0.20210415222903-e74573361fe6
+	knative.dev/eventing v0.22.1-0.20210420082335-31cda4cec54b
 	knative.dev/hack v0.0.0-20210325223819-b6ab329907d3
-	knative.dev/pkg v0.0.0-20210416161310-b80a1926251c
+	knative.dev/pkg v0.0.0-20210420053235-1afd04993622
 	sigs.k8s.io/structured-merge-diff/v3 v3.0.1-0.20200706213357-43c19bbb7fba // indirect
 )
 
