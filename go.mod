@@ -4,25 +4,26 @@ go 1.14
 
 require (
 	github.com/cloudevents/sdk-go/v2 v2.4.1
+	github.com/evanphx/json-patch v4.5.0+incompatible // indirect
 	github.com/flimzy/diff v0.1.7 // indirect
 	github.com/go-kivik/couchdb/v3 v3.0.4
 	github.com/go-kivik/kivik/v3 v3.0.2
 	github.com/go-kivik/kivikmock/v3 v3.0.0
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.6
 	github.com/googleapis/gnostic v0.4.0 // indirect
 	github.com/influxdata/tdigest v0.0.1 // indirect
 	github.com/otiai10/copy v1.2.0 // indirect
 	github.com/prometheus/procfs v0.0.11 // indirect
 	gitlab.com/flimzy/testy v0.2.1 // indirect
-	go.uber.org/zap v1.16.0
-	golang.org/x/net v0.0.0-20210415231046-e915ea6b2b7d
-	k8s.io/api v0.19.7
-	k8s.io/apimachinery v0.19.7
+	go.uber.org/zap v1.17.0
+	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
+	k8s.io/api v0.20.7
+	k8s.io/apimachinery v0.20.7
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/kube-openapi v0.0.0-20200410145947-bcb3869e6f29 // indirect
-	knative.dev/eventing v0.23.1-0.20210519141116-23198cd5e612
-	knative.dev/hack v0.0.0-20210428122153-93ad9129c268
-	knative.dev/pkg v0.0.0-20210518131015-67897f4ec290
+	knative.dev/eventing v0.23.1-0.20210622190628-74d711b6a367
+	knative.dev/hack v0.0.0-20210622141627-e28525d8d260
+	knative.dev/pkg v0.0.0-20210622173328-dd0db4b05c80
 	sigs.k8s.io/structured-merge-diff/v3 v3.0.1-0.20200706213357-43c19bbb7fba // indirect
 )
 
