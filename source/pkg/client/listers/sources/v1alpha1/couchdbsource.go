@@ -26,8 +26,10 @@ import (
 )
 
 // CouchDbSourceLister helps list CouchDbSources.
+// All objects returned here must be treated as read-only.
 type CouchDbSourceLister interface {
 	// List lists all CouchDbSources in the indexer.
+	// Objects returned here must be treated as read-only.
 	List(selector labels.Selector) (ret []*v1alpha1.CouchDbSource, err error)
 	// CouchDbSources returns an object that can list and get CouchDbSources.
 	CouchDbSources(namespace string) CouchDbSourceNamespaceLister
@@ -58,10 +60,13 @@ func (s *couchDbSourceLister) CouchDbSources(namespace string) CouchDbSourceName
 }
 
 // CouchDbSourceNamespaceLister helps list and get CouchDbSources.
+// All objects returned here must be treated as read-only.
 type CouchDbSourceNamespaceLister interface {
 	// List lists all CouchDbSources in the indexer for a given namespace.
+	// Objects returned here must be treated as read-only.
 	List(selector labels.Selector) (ret []*v1alpha1.CouchDbSource, err error)
 	// Get retrieves the CouchDbSource from the indexer for a given namespace and name.
+	// Objects returned here must be treated as read-only.
 	Get(name string) (*v1alpha1.CouchDbSource, error)
 	CouchDbSourceNamespaceListerExpansion
 }
