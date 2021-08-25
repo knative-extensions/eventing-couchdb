@@ -65,13 +65,12 @@ func NewController(
 		deploymentLister:    deploymentInformer.Lister(),
 	}
 	impl := cdbreconciler.NewImpl(ctx, r)
-	r.sinkResolver = resolver.NewURIResolver(ctx, impl.EnqueueKey)
+	r.sinkResolver = resolver.NewURIResolverFromTracker(ctx, impl.Tracker)
 
-	logging.FromContext(ctx).Info("Setting up event handlers")
 	couchdbSourceInformer.Informer().AddEventHandler(controller.HandleAll(impl.Enqueue))
 
 	deploymentInformer.Informer().AddEventHandler(cache.FilteringResourceEventHandler{
-		FilterFunc: controller.FilterControllerGK(v1alpha1.Kind("CouchDbSource")),
+		FilterFunc: controller.FilterController(&v1alpha1.CouchDbSource{}),
 		Handler:    controller.HandleAll(impl.EnqueueControllerOf),
 	})
 
