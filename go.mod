@@ -12,12 +12,12 @@ require (
 	github.com/influxdata/tdigest v0.0.1 // indirect
 	github.com/otiai10/copy v1.2.0 // indirect
 	gitlab.com/flimzy/testy v0.2.1 // indirect
-	go.uber.org/zap v1.18.1
-	golang.org/x/net v0.0.0-20210726213435-c6fcb2dbf985
-	k8s.io/api v0.20.7
-	k8s.io/apimachinery v0.20.7
-	k8s.io/client-go v0.20.7
-	knative.dev/eventing v0.25.1-0.20210825092225-5a0aa5d10404
+	go.uber.org/zap v1.19.0
+	golang.org/x/net v0.0.0-20210825183410-e898025ed96a
+	k8s.io/api v0.21.4
+	k8s.io/apimachinery v0.21.4
+	k8s.io/client-go v0.21.4
+	knative.dev/eventing v0.25.1-0.20210903113057-4a55e519013e
 	knative.dev/hack v0.0.0-20210806075220-815cd312d65c
-	knative.dev/pkg v0.0.0-20210825070025-a70bb26767b8
+	knative.dev/pkg v0.0.0-20210903055557-dec98b426132
 )
