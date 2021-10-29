@@ -13,11 +13,11 @@ require (
 	github.com/otiai10/copy v1.2.0 // indirect
 	gitlab.com/flimzy/testy v0.2.1 // indirect
 	go.uber.org/zap v1.19.1
-	golang.org/x/net v0.0.0-20210928044308-7d9f5e0b762b
+	golang.org/x/net v0.0.0-20211015210444-4f30a5c0130f
 	k8s.io/api v0.21.4
 	k8s.io/apimachinery v0.21.4
 	k8s.io/client-go v0.21.4
-	knative.dev/eventing v0.26.1-0.20211018174236-a34aaa09f7d2
-	knative.dev/hack v0.0.0-20211018110626-47ac3b032e60
-	knative.dev/pkg v0.0.0-20211018141937-a34efd6b409d
+	knative.dev/eventing v0.26.1-0.20211028192027-b498c7fd6eb7
+	knative.dev/hack v0.0.0-20211028194650-b96d65a5ff5e
+	knative.dev/pkg v0.0.0-20211027105800-3b33e02e5b9c
 )
