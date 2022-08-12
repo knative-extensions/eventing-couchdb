@@ -14,10 +14,10 @@ require (
 	gitlab.com/flimzy/testy v0.2.1 // indirect
 	go.uber.org/zap v1.21.0
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
-	k8s.io/api v0.23.8
-	k8s.io/apimachinery v0.23.8
-	k8s.io/client-go v0.23.8
-	knative.dev/eventing v0.32.1-0.20220628020529-eaec7294bc50
-	knative.dev/hack v0.0.0-20220610014127-dc6c287516dc
-	knative.dev/pkg v0.0.0-20220628014530-177751338ddc
+	k8s.io/api v0.23.9
+	k8s.io/apimachinery v0.23.9
+	k8s.io/client-go v0.23.9
+	knative.dev/eventing v0.33.1-0.20220812013702-4e563701f01e
+	knative.dev/hack v0.0.0-20220812013902-4621ee6b33ca
+	knative.dev/pkg v0.0.0-20220812013701-52261a1dc69d
 )
