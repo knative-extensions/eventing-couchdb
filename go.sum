@@ -1319,6 +1319,8 @@ knative.dev/eventing v0.33.1-0.20220812013702-4e563701f01e h1:WHmE3MxxEWtxeJVb0d
 knative.dev/eventing v0.33.1-0.20220812013702-4e563701f01e/go.mod h1:Un3zodfDFZVyXc64I4IVQtcpW7AIBvEspf9LixGqO3E=
 knative.dev/eventing v0.33.1-0.20220815185049-ab981d6bba92 h1:AYvqSqSuoZXirP89uJgyejMdae7m0k9ONSB/wYB5jaE=
 knative.dev/eventing v0.33.1-0.20220815185049-ab981d6bba92/go.mod h1:5Ip0LF/FmqQtOvSv8ycQxhOJhjxnowtMOuCv0ri8xWk=
+knative.dev/eventing v0.33.1-0.20220817092547-cb3901fa91f2 h1:15CD9JuxGozvC85ac6XdApu0mdeQYdtMohpyBnp9O1U=
+knative.dev/eventing v0.33.1-0.20220817092547-cb3901fa91f2/go.mod h1:SkjRpdGliaVo3lD171ZYSFRqk5+fnIE0p8cXrJsScB0=
 knative.dev/hack v0.0.0-20220524153203-12d3e2a7addc/go.mod h1:PHt8x8yX5Z9pPquBEfIj0X66f8iWkWfR0S/sarACJrI=
 knative.dev/hack v0.0.0-20220610014127-dc6c287516dc h1:LyqyT+rtgZYfOb3ChGE5jTFApCOcUmAcSV+TzgLxnys=
 knative.dev/hack v0.0.0-20220610014127-dc6c287516dc/go.mod h1:PHt8x8yX5Z9pPquBEfIj0X66f8iWkWfR0S/sarACJrI=
@@ -1340,9 +1342,12 @@ knative.dev/pkg v0.0.0-20220812013701-52261a1dc69d/go.mod h1:nBMKMJvyoaJdkpUrjwL
 knative.dev/pkg v0.0.0-20220815132133-0049fdd5c373/go.mod h1:nBMKMJvyoaJdkpUrjwLVs/DwaP6d73R3UkXK6lblJyE=
 knative.dev/pkg v0.0.0-20220815215248-d02dcd0b0391 h1:ym5kE6447gIqw3yp1CIGc94IRN8w/K+EVJcUZCgyIv0=
 knative.dev/pkg v0.0.0-20220815215248-d02dcd0b0391/go.mod h1:nBMKMJvyoaJdkpUrjwLVs/DwaP6d73R3UkXK6lblJyE=
+knative.dev/pkg v0.0.0-20220816153547-f78a00694307 h1:CNf+DsnFydG4cr/PW+ucP7/9dZtdGOfzvgRZPJfL/Xc=
+knative.dev/pkg v0.0.0-20220816153547-f78a00694307/go.mod h1:YLjXbkQLlGHok+u0FLfMbBHFzY9WGu3GHhnrptoAy8I=
 knative.dev/reconciler-test v0.0.0-20220622130523-57e43ca43bda/go.mod h1:KTK98X+RGi33WWJMCECLmELIX3UjrinnmskHDok4hPo=
 knative.dev/reconciler-test v0.0.0-20220722111920-0cfde63b455a/go.mod h1:Awq+u0SA8Cr6JAqef7JxGH1AQk73bllmugV83a60r+E=
 knative.dev/reconciler-test v0.0.0-20220815132133-0c44911cabc5/go.mod h1:/RUSXB2r9cUregJDlSTxKxqDMoeKPi93zq2AoAvUjqo=
+knative.dev/reconciler-test v0.0.0-20220816163747-93a10831a971/go.mod h1:YQhGT2cxDyHMbVniFDDt7/Oq/6vgOEYh5Utnh/kmavY=
 pgregory.net/rapid v0.3.3 h1:jCjBsY4ln4Atz78QoBWxUEvAHaFyNDQg9+WU62aCn1U=
 pgregory.net/rapid v0.3.3/go.mod h1:UYpPVyjFHzYBGHIxLFoupi8vwk6rXNzRY9OMvVxFIOU=
 rsc.io/binaryregexp v0.2.0/go.mod h1:qTv7/COck+e2FymRvadv62gMdZztPaShugOCi3I+8D8=
